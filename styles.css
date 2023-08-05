@@ -1,0 +1,174 @@
+.banner
+{
+    background: linear-gradient( 90deg,#143cf1,#834bb8, #5572f2);
+    margin: -8px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+body
+{
+    background: url("blue.jpg") ;
+}
+.contact,.gitlink,.about,#about_link,#join
+{
+    color:white;
+}
+.contact, .about
+{
+   display: flex;
+   font-size: 1.3em;  
+   width: 190px;
+   height: 100px;
+   flex-direction: column;
+   gap:10px;
+}
+.gitlink,#about_link
+{
+    margin: 0;
+    display: block;
+    height:20px;
+}
+.contact-mail,#join
+{   
+    text-align: left;   
+    display: block ;
+    margin-bottom: 0;
+    height: 10px;
+    font-size: 1rem;
+    text-decoration: underline;
+    
+}
+.about{
+    gap: 25px;
+    margin-right: 3px;
+}
+#about_link
+{
+    text-align: right ;
+}
+#join
+{
+    text-align: right ;
+}
+.company
+{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+}
+.A
+{
+    height: 32px;
+    padding-bottom: 2px;
+    border: 3px solid white;
+    border-radius: 0 10px 0 10px;
+    color:white;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.slip
+{   
+    margin: 50px auto;
+    text-align: center;
+    max-width: 450px;
+    height:650px;
+    max-height: 700px;
+    color: #e8e7f1;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    border: 3px solid rgba(20, 215, 36, 0.383);
+    background-color: #100e2e;
+}
+.heading-1
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.headline
+{   
+    margin-top: -35px;
+    font-size: 25px;
+}
+
+.date
+{
+    text-align: center;
+    width:200px;
+    display: inline-block;
+    margin :20px auto;
+}
+.break
+{
+    background-color: #834bb8;
+    width: 300px;
+    margin: 0 auto;
+    height :2px;
+    max-width: 350px;
+    max-height: 500px;
+}
+.box
+{
+    width: 400px;
+    height: 200px;
+    
+}
+.rank,.left
+{
+    font-size: 0.6em;
+    text-align: left;
+}
+.rank
+{
+    margin-left:5px;
+}
+.right
+{
+    font-size: 0.6em;
+    text-align: right;
+    width: 150px;
+    margin-left: 55px;
+   
+}
+.left
+{
+   
+    width: 170px;
+    margin-right:55px;
+}
+.left,.right
+{
+    margin-top:0px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.heading-2
+{
+    margin-top: 5px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.light
+{
+    color:#5c5a7c;
+}
+.last
+{
+    margin-bottom: 20px;
+}
+.footer
+{
+    text-align: center;
+    margin: 0 auto;
+    height: 70px;
+    width: 120px;
+    font-size: 16px;
+}
+.footer p
+{
+    margin-bottom: -5px;
+}
